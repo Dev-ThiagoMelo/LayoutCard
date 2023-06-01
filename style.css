@@ -1,8 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 font {
@@ -11,75 +10,79 @@ font {
 }
 
 body {
+  width: 100vh;
+  height: 70vh;
   width: 1440px;
-  background-color:  hsl(233, 47%, 7%);
+  background-color: hsl(233, 47%, 7%);
 }
-.card-container{
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 70rem;
   min-height: 55.55vh;
-  display: flex;
+
   margin: 170px;
-  background-color:hsl(244, 38%, 16%);
+  background-color: hsl(244, 38%, 16%);
   border-radius: 10px;
 }
-.main-container{
-padding: 50px 0px 0px 70px;
-
+.main-container {
+  padding: 50px 0px 0px 70px;
 }
 
-.title-container{
+.title-container {
   max-height: 100%;
   max-width: 100%;
 }
 
-h1{
+h1 {
   margin-right: 10px;
   padding: 5px 70px 15px 0px;
   font-family: "Inter", sans-serif;
   font-size: 2.5em;
   color: hsl(0, 0%, 100%);
 }
-strong{
+strong {
   color: hsl(277, 64%, 61%);
 }
-.p1{
-  font-family: 'Lexend Deca';
+.p1 {
+  font-family: "Lexend Deca";
   color: hsla(0, 0%, 100%, 0.75);
   margin: 10px 90px 2px 0px;
   padding-right: 125.5px;
   font-size: 0.95em;
 }
-h3{
+h3 {
   font-family: "Inter", sans-serif;
   font-size: 1.5em;
   color: hsl(0, 0%, 100%);
 }
-.p2{
-  font-family: 'Lexend Deca';
+.p2 {
+  font-family: "Lexend Deca";
   font-size: 0.85em;
   color: hsla(0, 0%, 100%, 0.6);
   padding-top: 8px;
 }
 
-.Number-container{
+.Number-container {
   font-family: "Inter", sans-serif;
   display: flex !important;
   padding-top: 15px;
 }
 
-.Number-content{
+.Number-content {
   font-family: "Inter", sans-serif;
   padding: 40px 50px 0px 0px;
 }
-.CardImg{
+.CardImg {
   filter: opacity(0.4) drop-shadow(0 0 0 hsla(292, 95%, 44%, 0.863));
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Img{
+.Img {
   width: 67vh;
-  border-top-right-radius:10px ;
-  border-bottom-right-radius:10px ;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
