@@ -17,14 +17,17 @@ body {
 }
 .card-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 170px;
   min-width: 70rem;
   min-height: 55.55vh;
-  margin: 170px;
   background-color: hsl(244, 38%, 16%);
   border-radius: 10px;
 }
 .main-container {
-  padding: 0px 0px 0px 70px;
+  padding: 60px
 }
 
 .title-container {
@@ -34,7 +37,6 @@ body {
 
 h1 {
   margin-right: 10px;
-  padding: 60px 70px 9px 0px;
   font-family: "Inter", sans-serif;
   font-size: 2.5em;
   color: hsl(0, 0%, 100%);
@@ -45,8 +47,8 @@ strong {
 .p1 {
   font-family: "Lexend Deca";
   color: hsla(0, 0%, 100%, 0.75);
-  margin: 10px 80px 25px 0px;
-  padding-right: 125.5px;
+  margin: 20px 80px 25px 0px;
+  padding-right: 12.5px;
   font-size: 0.95em;
 }
 h3 {
@@ -79,7 +81,7 @@ h3 {
   align-items: center;
 }
 .Img {
-  width: 67vh;
+  width: 75vh;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
