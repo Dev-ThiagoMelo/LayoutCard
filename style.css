@@ -18,7 +18,7 @@ body {
   min-width: 70rem;
   min-height: 55.55vh;
   display: flex;
-  margin: 150px;
+  margin: 170px;
   background-color:hsl(244, 38%, 16%);
   border-radius: 10px;
 }
