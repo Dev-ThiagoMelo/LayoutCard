@@ -15,29 +15,28 @@ body {
   background-color:  hsl(233, 47%, 7%);
 }
 .card-container{
-  min-width: 100vh;
-  height: 65.95vh;
+  min-width: 70rem;
+  min-height: 55.55vh;
   display: flex;
   margin: 150px;
   background-color:hsl(244, 38%, 16%);
-  
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
 }
 .main-container{
-padding: 70px 0px 70px 70px;
+padding: 50px 0px 0px 70px;
 
 }
 
 .title-container{
-  min-height: 100%;
+  max-height: 100%;
   max-width: 100%;
 }
 
 h1{
-  padding: 5px 60px 15px 0px;
+  margin-right: 10px;
+  padding: 5px 70px 15px 0px;
   font-family: "Inter", sans-serif;
-  font-size: 2.3em;
+  font-size: 2.5em;
   color: hsl(0, 0%, 100%);
 }
 strong{
@@ -46,8 +45,8 @@ strong{
 .p1{
   font-family: 'Lexend Deca';
   color: hsla(0, 0%, 100%, 0.75);
-  margin: 19px 30px 25px 0px;
-  padding-right: 100px;
+  margin: 10px 90px 2px 0px;
+  padding-right: 125.5px;
   font-size: 0.95em;
 }
 h3{
@@ -80,7 +79,7 @@ h3{
   align-items: center;
 }
 .Img{
-  width: 80vh;
+  width: 67vh;
   border-top-right-radius:10px ;
   border-bottom-right-radius:10px ;
 }
