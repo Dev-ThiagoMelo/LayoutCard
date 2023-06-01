@@ -17,8 +17,6 @@ body {
 }
 .card-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-width: 70rem;
   min-height: 55.55vh;
   margin: 170px;
@@ -36,7 +34,7 @@ body {
 
 h1 {
   margin-right: 10px;
-  padding: 0px 70px 15px 0px;
+  padding: 40px 70px 9px 0px;
   font-family: "Inter", sans-serif;
   font-size: 2.5em;
   color: hsl(0, 0%, 100%);
@@ -47,7 +45,7 @@ strong {
 .p1 {
   font-family: "Lexend Deca";
   color: hsla(0, 0%, 100%, 0.75);
-  margin: 10px 90px 2px 0px;
+  margin: 10px 80px 25px 0px;
   padding-right: 125.5px;
   font-size: 0.95em;
 }
