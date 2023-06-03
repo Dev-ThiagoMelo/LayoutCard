@@ -154,7 +154,7 @@ h3 {
     font-family: "Inter", sans-serif;
   }
   .CardImg {
-    filter: opacity(0.4) drop-shadow(0 0 0 hsl(323, 95%, 49%));
+    filter: opacity(0.4) drop-shadow(0 0 0 hsl(291, 100%, 52%));
     display: flex;
     justify-content: center;
     align-items: center;
